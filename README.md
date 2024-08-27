@@ -26,7 +26,7 @@ git clone https://github.com/yourusername/unity-gui-effect-system.git
 
 # Example
 Here’s an example of a button configured with the ImageColorSwap effect:
-```````````csharp
+``csharp
 [Serializable]
 public class InteractiveGUI
 {
