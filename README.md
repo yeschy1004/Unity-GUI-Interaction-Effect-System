@@ -13,9 +13,7 @@ This repository contains a modular and extendable system for adding dynamic inte
 
 # Installation
 1. Clone the repository into your Unity project's Assets folder:
-===
 git clone https://github.com/yourusername/unity-gui-effect-system.git
-===
 
 3. Ensure that DOTween and Cysharp.Threading.Tasks are installed and properly set up in your project.
 
@@ -28,7 +26,6 @@ git clone https://github.com/yourusername/unity-gui-effect-system.git
 # Example
 Here’s an example of a button configured with the ImageColorSwap effect:
 
-===
 [Serializable]
 public class InteractiveGUI
 {
@@ -40,7 +37,6 @@ public class InteractiveGUI
     public Color32 pressImgColor = Color.red;
     public Color32 disableImgColor = Color.gray;
 }
-===
 
 # Supported Effect Types
  * ImageColorSwap: Changes the color of an image on different interaction states (default, hover, press, disabled).
